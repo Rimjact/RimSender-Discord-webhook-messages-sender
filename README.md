@@ -23,11 +23,14 @@ If something went wrong, read the status and fix the error.
 > [!CAUTION]
 > If the problem persists, please, write to ["Issues"](https://github.com/Rimjact/RimSender-Discord-webhook-messages-sender/issues) on this page.
 
-## What is contained on this page
-This page contains the source code of the application, as well as its installation program for Windows x64.
+## How to download
+This page contains the source code of the program. To use it, you need to download these files and save them in a separate folder. After that, write **"npm install"** in your console to download all the dependencies of the project.
 
 >[!NOTE]
-> The installation program is located in **setup/rimsender-x64/**
+> To download the program, follow [this link](https://disk.yandex.ru/d/AJJ6d_hOxo8Zng).
+
+> [!WARNING]
+> If the antivirus blocks the installation file, put it in the exceptions. **__This program does not contain viruses!__**
 
 ## Author
 This application developed using ElectronJS, Node.JS, JavaScript, HTML, CSS.
