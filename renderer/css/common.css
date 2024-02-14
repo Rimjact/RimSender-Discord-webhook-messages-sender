@@ -1,0 +1,77 @@
+/* ================== CSS Variables ================== */
+:root {
+    /* Colors */
+    --first-body-color: #313338;
+    --second-body-color: #383a40; 
+
+    --label-text-color: #dbdee1;
+
+    --input-color: #1a1b1e;
+    --input-text-color: #dbdee1;
+    --input-placeholder-color: #87898c;
+
+    --button-color: #4752c4;
+    --button-hover-color: #5865f2;
+
+    /* Font */
+    --body-font: 'Tahoma', sans-serif;
+
+    /* Font size */
+    --h1-font-size: 18px;
+    --h3-font-size: 16px;
+    --label-font-size: 12px;
+    --input-font-size: 12px;
+    --status-font-size: 16px;
+    --button-font-size: 22px;
+
+    /* Font weight */
+    --font-regular: 400;
+    
+    /* Margenes & paddings*/
+    --mb-label-input: 10px;
+    --mb-section-start: 16px;
+    --mb-section-end: 20px;
+    --mb-inputs: 15px;
+    --mtb-status-text: 20px;
+    --p-body: 20px;
+
+    /* Z-Index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    /* Transitions */
+    --tr: .2s all linear;
+}
+
+/* ================== COMMON SETUPS ================== */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    background: var(--first-body-color);
+    color: var(--label-text-color);
+    padding: var(--p-body);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: normal;
+}
+
+h3 {
+    font-size: var(--h1-font-size);
+    font-weight: normal;
+}
+
+.section_line {
+    height: 2px;
+    background-color: var(--second-body-color);
+}

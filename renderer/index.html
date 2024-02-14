@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- This Content Security Policy fix the Electron Security Warning -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>RimSender - Discord Webhook Messages</title>
+</head>
+<body>
+    <h3 class="main-title">Message settings</h3>
+    <!-- MAIN SETUPS SECTION -->
+    <section id="setups">
+        <div class="input">
+            <label for="webhook-url">WEBHOOK URL</label>
+            <input type="text" name="webhook-url" id="input-webhook-url" placeholder="Enter a webhook URL here">
+        </div>
+        <div class="input">
+            <label for="avatar-url">AVATAR URL</label>
+            <input type="text" name="avatar-url" id="input-avatar-url" placeholder="Enter a avatar URL here">
+        </div>
+        <div class="input">
+            <label for="author">AUTHOR</label>
+            <input type="text" name="author" id="input-author" placeholder="Enter a message author here">
+        </div>
+        <div class="input">
+            <label>MESSAGE TYPE</label>
+            <div class="radio_buttons">
+                <div class="radio">
+                    <input id="radio-simple-msg" type="radio" name="message_type" value="simple-msg" checked>
+                    <label for="radio-simple-msg">Simple</label>
+                </div>
+                <div class="radio">
+                    <input id="radio-embed-msg" type="radio" name="message_type" value="embed-msg">
+                    <label for="radio-embed-msg">Embed</label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SIMPLE MESSAGE SECTION -->
+    <section class="" id="message-simple">
+        <div class="section_line"></div>
+        <div class="input">
+            <label for="simple-text">SIMPLE MESSAGE</label>
+            <textarea wrap="off" name="simple-text" id="input-simple-text" cols="30" rows="12" placeholder="Your message..."></textarea>
+        </div>
+    </section>
+    <!-- EMBED MESSAGE SECTION -->
+    <section class="hided" id="message-embed">
+        <div class="section_line"></div>
+        <div class="input_group">
+            <div class="input_group_item">
+                <label for="embed-title">EMBED TITLE</label>
+                <input type="text" name="embed-title" id="input-embed-title" placeholder="Title of the message...">
+            </div>
+            <div class="input_group_item">
+                <label for="embed-color">EMBED COLOR</label>
+                <input type="color" name="embed-color" id="input-embed-color">
+            </div>
+        </div>
+        <div class="input">
+            <label for="embed-text">EMBED TEXT</label>
+            <textarea wrap="off" name="embed-text" id="input-embed-text" cols="30" rows="7" placeholder="Your message..."></textarea>
+        </div>
+    </section>
+    <!-- SEND AND STATUS SECTION -->
+    <section class="" id="section-send">
+        <label id="label-status">Fill in all the fields and click "Submit".</label>
+        <input id="button-send" type="button" value="Send">
+    </section>
+
+    <!-- CONNECT SCRIPT -->
+    <script src="js/renderer.js"></script>
+</body>
+</html>

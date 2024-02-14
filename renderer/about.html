@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- This Content Security Policy fix the Electron Security Warning -->
+    <meta http-equiv="Content-Security-Policy" content="script-src: 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/about.css">
+
+    <title>RimSender - About</title>
+</head>
+<body>
+    <section id="section-about">
+        <h1 class="purple_blue">RimSender</h1>
+        <h3>Discord Webhook Messages</h3>
+
+        <div class="section_line"></div>
+    </section>
+    <section id="section-author">
+        <label id="author-label-title" class="purple_blue">Author</label>
+        <label id="author-label-desc">Kirill "Rimjact" Tolokolnikov</label>
+        
+        <div class="socual_buttons">
+            <a href="https://github.com/Rimjact" id="social-github">
+                <img id="social-github-mark" src="../assets/images/github-mark-white.png" alt="GitHub">
+            </a>
+        </div>
+    </section>
+    <section id="version-and-copyright">
+        <div class="section_line"></div>
+
+        <label id="version-and-copyright-label">v1.0.0 (14.02.2024) | © Rimjact, 2024</label>
+    </section>
+
+    <script src="js/about-renderer.js"></script>
+</body>
+</html>
