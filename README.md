@@ -20,6 +20,10 @@ You ready to open RimSender app. In the first three lines, you need to paste the
 Next, select the message type "Simple" or "Embed". A simple message has only one text field. The embed contains three fields: title, color and text.
 If something went wrong, read the status and fix the error.
 
+![App UI](https://i.imgur.com/52DZsvd.png)
+
+![Message example](https://i.imgur.com/TfyHZWl.png)
+
 > [!CAUTION]
 > If the problem persists, please, write to ["Issues"](https://github.com/Rimjact/RimSender-Discord-webhook-messages-sender/issues) on this page.
 
