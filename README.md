@@ -31,7 +31,7 @@ If something went wrong, read the status and fix the error.
 This page contains the source code of the program. To use it, you need to download these files and save them in a separate folder. After that, write **"npm install"** in your console to download all the dependencies of the project.
 
 >[!NOTE]
-> To download the program, follow [this link](https://disk.yandex.ru/d/kMSYRmZfkJOJig).
+> To download the program, follow [this link](https://github.com/Rimjact/RimSender-Discord-webhook-messages-sender/releases).
 
 > [!WARNING]
 > If the antivirus blocks the installation file, put it in the exceptions. **__This program does not contain viruses!__**
