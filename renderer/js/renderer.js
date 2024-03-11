@@ -165,7 +165,7 @@ function checkInputs() {
 
 // Check a string is valid Webhook URL
 function isValidWebhookUrl(string) {
-    return string.startsWith('https://discord.com/api/webhooks/');
+    return string.startsWith('https://discordapp.com/api/webhooks/') || string.startsWith('https://discord.com/api/webhooks/');
 } 
 
 // Check a string is valid URL
