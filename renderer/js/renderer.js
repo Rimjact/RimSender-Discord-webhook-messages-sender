@@ -3,12 +3,6 @@
 This is simple app for Windows, MacOS and Linux for send messages at Discord chat using webhooks.
 
 v1.0.0 (14.02.2024) | © Rimjact, 2024
-
-https://discord.com/api/webhooks/1207377802265890886/vr1cLZM0ZIWzHbe6BbPmkAN7z-LfswVBWGS9DnRhf8bP6WRmqQ--CzesZ2eumNLz6Aib
-
-https://avatars.mds.yandex.net/i?id=0fceee14b22e67476834281b5f6dbbd3f444f5bb-9843573-images-thumbs&n=13
-
-Cool Story Bob
 */
 
 /* ===== ELEMENTS ===== */
